@@ -36,7 +36,7 @@ In addition to the adversarial loss functions (MSE loss) for the discriminators 
 
 I train for 5 epochs and it takes around 3 hours. The best image translation pair is presented in Fig 1 below. The generator manages to learn some important characteristics of anime faces within 5 epochs. These features include larger eyes, pale skin tone, and hairstyle.  The color in the background is also brightened.
 
-![Figure 1](IMG/Best.png)
+![Figure 1](img/Best.png)
 
 I also present the panel of 60 pairs of image translations in Fig 2 below, the best pair above is located in the 1st row and the 5th column. For most of the pairs, the translation is less noticeable. The difference in distribution between the selfies image collection and the anime one might explain this heterogeneity in translation quality. The anime image collection contains mostly well-centered pictures with the right level of brightness but the selfies taken in the real world have very different angles and brightness conditions. Additionally, most of the anime pictures have pale skin tones, but skin tones in the selfies collection have a wide spectrum. As a result, the anime-face generator works well for the typical case above where the face and eyes are centered and the human subject has a relatively pale skin tone. For many other cases where the face is not centered or the skin tone is not pale, the generator only manages to make the skin tone paler or slightly enlarges the eyes.
 
