@@ -1,4 +1,4 @@
-# Image-Translation-with-CycleGAN
+# Image-to-Image-Translation-with-CycleGAN
 
 1. [Introduction](#Introduction)
 2. [Data Preprocessing](#DataPreprocessing)
